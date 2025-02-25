@@ -377,6 +377,6 @@ def classify_sentences(sentence):
     label = "positive" if predicted_class[0][0] == 1 else "negative"
     return label
 
-sentence = "Siparişimde eksik ürün çıktı, çok üzüldüm"
+sentence = "Ürün kırık geldi, iade süreci de çok zor"
 result = classify_sentences(sentence)
 print("result : ", result)
